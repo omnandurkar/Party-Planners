@@ -821,6 +821,12 @@ p{
     align-items: center;
 }
 
+.footer1 h1{
+    color: #a82ef2;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-left: -50px;
+}
 .footer h2{
     color: #a82ef2;
 }

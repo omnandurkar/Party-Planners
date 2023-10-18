@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    font-family: rubik;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container{
+    padding: 0%;
+    background-color: rgb(245, 238, 229);
+}
+.navbar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10vw 6px 10vw;
+    margin-top: -25px;
+
+    font-family: 'PT Serif', serif;
+}
+
+.n-address
+{
+    width: 200px;
+}
+
+.n-time
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    text-align: center;
+}
+
+.n-logo{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.logoo{
+    font-family: 'Pacifico', cursive;
+    margin-left: -70px;
+    /* margin-top: 40px; */
+    margin-bottom: -25px;
+    font-size: 40px;
+}
+
+.n-support{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.n-support2{
+    color: #a82ef2;
+}
+
+.n-book-meeting{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 23px;
+    display: block;
+    border: #eee;
+}
+
+.n-book-meeting:hover{
+    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    color: #fff;
+    text-decoration: none;
+}
+/* ++++++++++++++++++++++++  Navbar  ++++++++++++++++++++++++++ */
+
+
+
+.navbar-2{
+    background-color:#a82ef2;
+    background-image: url(../images/home/home-navbar.jpg);
+    background-size: cover;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 500px 0px 500px; */
+    padding: 0px 10vw 0px 10vw;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar-2-L .home{
+    color: yellow;
+    transform: scale(1.3);
+}
+
+.navbar-2 a:hover{
+    color: yellow;
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.navbar-2-L{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.navbar-2-R{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.n2{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact{
+    margin-top: 15px;
+}
+
+.login{
+    padding: 15px;
+    border-radius: 30px;
+    font-family: rubik;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid white;
+    background-color: #9e23eb;
+    color:aliceblue;
+
+}
+
+.login:hover{
+    background-color: #cd96f0;
+    color: aliceblue;
+    transition: .7s ease;
+}
+
+
+
+
+
+/* ++++++++++++++++++++++++  FOOTER  ++++++++++++++++++++++++++ */
+
+
+
+
+.footer{
+    background-image: url(../images/home/home-footer3.jpg);
+    background-size: cover;
+    /* margin-top: 30px; */
+    height: 350px;
+    /* background-color: #a82ef2; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 1px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-box{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer1 h1{
+    color: #a82ef2;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-left: -50px;
+}
+.footer h2{
+    color: #a82ef2;
+}
+
+.tag{
+    font-family: 'Pacifico', cursive;
+    color: #a82ef2;
+}

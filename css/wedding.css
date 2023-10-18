@@ -69,6 +69,7 @@ body{
 }
 
 .heading{
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     color: purple;
     text-decoration: underline;

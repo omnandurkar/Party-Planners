@@ -1,20 +1,7 @@
    
-        body{
-            background-color:#bfa1c9;
-        }
-.heading{
-    height:50px;
-    width: 220px;
-    color: black;
-    height: 100px;
-    text-align: right;
-    justify-content:left;
-}
-
-.text{
-    font-size: xx-large
-    
-}
+body{
+     background-color:#bfa1c9;
+    }
 .box1{
     display: flex;
     justify-content: center;
@@ -28,115 +15,50 @@
     display: flex;
     justify-content: space-around;
 }
-.wedding-card{
-    border:2px solid black;
-    background-color: white;
-    height: 250px; 
+.card-items{
+    border:none;
+    height: 240px; 
     width: 300px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
+    margin:  30px;
     box-shadow: 2px 2px 4px #ccc;
     display: inline-block;
-
-}
-.Birthday-card{
-    border:2px solid black;
-    background-color: white;
-    height: 250px;
-    width: 300px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display: inline-block;
+    cursor: pointer;
 }
 
-.office-party{
-    border:2px solid black;
-    background-color:white;
-    height: 250px;
-    width: 300px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display: inline-block;
-}
-
-.Surprise-Event{
-    border:2px solid black;
-    background-color: white;
-    height: 250px;
-    width: 300px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display: inline-block;
-
-}
-.Award-ceremonies{
-    border:2px solid black;
-    background-color: white;
-    height: 250px;
-    width: 350px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    
-
-}
-.Charity-donation-event{
-    border:2px solid black;
-    background-color: white;
-    height: 250px;
-    width: 350px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display:inline-block;
-
-    
-}
-.college-event{
-    border:2px solid black;
-    background-color:white;
-    height: 250px;
-    width: 350px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display: inline-block;
-}
-.workshop-Event{
-    border:2px solid black;
-    background-color:white;
-    height: 250px;
-    width: 350px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px #ccc;
-    display: inline-block;
-}
-
-.heading1{
-color:black;  
-}
-.heading2{
-color: black;
-}
-.heading3{
-    color: black;
-}
-.heading4{
-color: black;
-}
 .head-container{
+    
     text-align: center;
     color: black;
+    font-family: 'Pacifico', cursive;
 }
+
+.img-container{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+}
+.description-heading{
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+}
+.button-container{
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.des-heading{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #a82ef2; 
+    color: white;
+    font-size: 17px;
+
+}
+.description-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30PX;
+}
+

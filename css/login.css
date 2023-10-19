@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* {
+    font-family: 'PT Serif', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+} */
+.main-container{
+  display: flex;
+  margin-left: 80px;
+
+  
+  
+  }
+  .log-in-container{
+    height: 330px;
+    width:250px;
+    /* border: 1px solid black; */
+    
+    margin-top:35px;
+    background-color:rgb(245,238,229);
+    padding: 2px;
+    /* border-radius: 0 60px 60px 0; */
+    
+  }
+  .log-out-container{
+    height: 330px;
+    width:220px;
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    margin-left:70px ;
+    
+    
+    padding: 2px;
+    background-image: linear-gradient( to right, #DA22FF 0%,#9733EE 51%, #DA22FF 100%);
+  }
+    .login-heading{
+      margin-left:80px;
+      font-family: 'PT Serif', serif;
+   }
+    .login-text{
+      text-align: center;
+      font-size: 10px;
+    }
+    .user-input-box{
+      margin-left: 10px;
+      border-radius: 1px;
+    }
+    .user-password-box{
+      margin-left: 10px;
+      border-radius: 5px;
+    }
+    .btn{
+      background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      /* box-shadow: 0 0 20px #eee; */
+      border-radius: 10px;
+      display: block;
+      border: #eee;
+      margin-top: 40px;
+      margin-left: 50px;
+      }
+    .sign-up-text{
+      text-align: center;
+      font-size:14px ;
+    }
+    .heading-center{
+      margin-left: 30px;
+      margin-top: 90px;
+      color:white;
+      font-family: 'PT Serif', serif;
+
+    } 
+    .login-text-center{
+      font-size:10px ;
+      text-align: center;
+      color: white;
+
+    }
+    .btn-background-image{
+      background-image: linear-gradient( to right, #DA22FF 0%,#9733EE 51%, #DA22FF 100%);
+    }
+    
+    
+  
+
+
+     
+
+
+     

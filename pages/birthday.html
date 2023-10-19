@@ -5,8 +5,572 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday</title>
-</head>
-<body>
+    <style>
+        a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    font-family: rubik;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container{
+    padding: 0%;
+    background-color: rgb(245, 238, 229);
+}
+.navbar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10vw 6px 10vw;
+    margin-top: -25px;
+
+    font-family: 'PT Serif', serif;
+}
+
+.n-address
+{
+    width: 200px;
+}
+
+.n-time
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    text-align: center;
+}
+
+.n-logo{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.logoo{
+    font-family: 'Pacifico', cursive;
+    margin-left: -70px;
+    /* margin-top: 40px; */
+    margin-bottom: -25px;
+    font-size: 40px;
+}
+
+.n-support{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.n-support2{
+    color: #a82ef2;
+}
+
+.n-book-meeting{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 23px;
+    display: block;
+    border: #eee;
+}
+
+.n-book-meeting:hover{
+    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.navbar-2{
+    background-color:#a82ef2;
+    background-image: url(../images/home/home-navbar.jpg);
+    background-size: cover;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 500px 0px 500px; */
+    padding: 0px 10vw 0px 10vw;
+    font-family: 'Montserrat', sans-serif;
     
-</body>
-</html>
+}
+
+.navbar-2-L .home{
+    color: yellow;
+    transform: scale(1.3);
+}
+
+.navbar-2 a:hover{
+    color: yellow;
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.navbar-2-L{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.navbar-2-R{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.n2{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact{
+    margin-top: 15px;
+}
+
+.login{
+    padding: 15px;
+    border-radius: 30px;
+    font-family: rubik;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid white;
+    background-color: #9e23eb;
+    color:aliceblue;
+
+}
+
+.login:hover{
+    background-color: #cd96f0;
+    color: aliceblue;
+    transition: .7s ease;
+}
+
+        
+        .abc{
+            background-color: rgb(245, 238,229);
+            color: aliceblue;
+            background-color: antiquewhite;
+            color: #a82ef2;
+            background-color: #9e23eb;
+            background-color: #cd96f0;
+
+        }
+        body{
+            padding:0;
+            margin:0;
+            background-color:antiquewhite;
+        }
+        
+        .container {color: white;}
+        .photo{
+         height: 500px;
+          width: 1200px;
+        margin: 70px;
+}
+.center{
+position: absolute;
+top: 80%;
+left: 50%;
+font-size: 100px;
+color: #a82ef2;
+font-style: italic;
+}
+.center:hover{
+    font-size: 103px;
+    transition: 0.3s;
+}
+.bottom-top {
+position: absolute;
+top: 150px;
+left: 1px;
+font-size: 30px;
+padding: 110px;
+font-style: italic;
+}
+.text{
+background-color:#cd96f0;
+height: 130px;
+width:250px;
+border-radius: 50%;
+margin: 40px 30px;
+text-align: center;
+font-size: 30px;
+padding: 17px;
+font-style: italic;
+color: aliceblue;
+}
+
+.info{
+    font-size: 35px;
+    color: #a82ef2;
+    font-style: italic;
+}
+
+.container-1{
+     margin: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-around;
+     padding left: 30px;
+}
+.text-2{
+    text-align: center;
+    font-size: 30px;
+    color: #a82ef2;
+}
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.image1{
+    width: 350px;
+    margin: 30px;
+
+}
+.image1:hover{
+    width: 400px;
+    border-radius: 20%;
+    transition: 0.3s;
+}
+.paragraph1{
+    margin: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: #9e23eb;
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.image2{
+    width: 380px;
+    margin: 60px;
+}
+.image2:hover{
+    width: 420px;
+    border-radius: 20%;
+    transition: 0.3s;
+}
+.paragraph2{
+    margin: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: #9e23eb;
+    padding: 70px;
+
+}
+.text-3{
+    text-align: center;
+    font-size: 30px;
+    color: #a82ef2;
+}
+.container-5{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+ 
+}
+.moments{
+    width: 300px;
+    height: 250px;
+}
+.moments:hover{
+    width: 350px;
+    transition: 0.3s;
+    
+}
+.client{
+    text-align: center;
+    color: black;
+}
+.feature-card{
+    width: 300px;
+    background-color: #d7bfe6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    
+   
+    
+}
+.theme-name{
+    font-size: 28px;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+}
+.theme-main{
+text-align: center;
+    color: #a82ef2;
+    font-size: 30px;
+
+}
+.boy-theme1{
+    width: 50px;
+    padding: 25px;
+}
+.feature-main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.feature-card:hover{
+    border-radius: 20%;
+    transition: 0.3s;
+}
+.girltheme{
+    width: 250px;
+}
+.eldertheme{
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    background-image: url(../images/home/home-footer3.jpg);
+    background-size: cover;
+    /* margin-top: 30px; */
+    height: 350px;
+    /* background-color: #a82ef2; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 1px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-box{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer1 h1{
+    color: #a82ef2;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-left: -50px;
+}
+.footer h2{
+    color: #a82ef2;
+}
+
+.tag{
+    font-family: 'Pacifico', cursive;
+    color: #a82ef2;
+}
+
+
+
+
+
+
+
+
+        </style>
+        <body>
+            <div class="container">
+        
+                <div class="navbar-1">
+                    <div class="n-address">
+                        <p1>202,Harmony Appartments,Vrundavan Garden, Bakori road,Wagholi,Pune</p1>
+                    </div>
+                    <div class="n-time">
+                        <p2 class="n-time1">Office Hours:</p2>
+                        <p3 class="n-time2">9:00 - 5:00 pm</p3>
+                    </div>
+        
+                    <div class="n-logo">
+                        <h1 class="logoo">Party Planners</h1>
+                    </div>
+        
+                    <div class="n-support">
+                        <p4 class="n-support1">Support</p4>
+                        <p5 class="n-support2">+1800-123-456-789</p5>
+                    </div>
+        
+                    <a href="./pages/contact.html">
+                        <button class="n-book-meeting">BOOK MEETING</button>
+                    </a>
+        
+                    
+                </div>
+        
+                <nav class="navbar-2">
+                    <div class="navbar-2-L">
+                        <a class="home n2" href="./index.html"> Home</a>
+                        <a class="About n2" href="./pages/about.html"> About Us</a>
+                        <a class="Services n2" href="./pages/services.html"> Services</a>
+                    </div>
+        
+                    <div class="navbar-2-R">
+                        <a class="contact n2" href="./pages/contact.html"> Contact Us</a>
+                        <button class="login">Signup/Login</button>
+                    </div>
+        
+                </nav>
+        
+        
+            
+            <div class="container">
+                <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\blur background.jpg" class="photo"/>
+
+                <div class="center">Birthday Blog</div>
+        <div class="bottom-top">We Celebrate <br/>With You!!!!</div>
+            </div>
+                 
+            <div class="container-1">
+               <div> <h6 class="text">Birthday Celebrations & Enjoyment!!!</h6></div>
+                
+               <div class="container-2"> <p class="info">
+                A birthday is the anniversary of the birth of a person, or figuratively of an institution. Birthdays of people are celebrated in numerous cultures, often with birthday gifts, birthday cards, a birthday party, or a rite of passage. Birthday cakes are very commonplace in birthday celebrations</p></div>
+            </div>
+            <h2 class="text-2"><u><i>Our Birthday Events</i></u></h2>
+
+            <div class="container-3">
+
+                <div class="event1">
+                    <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\boy-decoration.jpg" class="image1"></div>
+                    <div class="paragraph1"><u><b>Boy Birthday Event</b></u><br/><br/>Balloons are the most important thing when it comes to birthday decorations. You can choose according to the birthday boy's choice. There is a wide variety when it comes to balloons, metallic balloons, cartoon balloons, different shaped balloons, different coloured balloons and many more.</div>
+                </div>
+            </div>
+            <div class="container-4">
+
+                <div class="paragraph2"><u><b>Girl Birthday Event</b></u><br/><br/>Start by getting a pretty pink birthday frock or gown for your girl. Add extra pink strawberries and cherries to your pink cake. Decorate the house with pink balloons, ribbons, and pom-poms. Arrange for pink cupcakes, candies, and jellies</div>
+                <div class="event2">
+                    <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\girl decoration.jpeg" class="image2"></div><br/>
+                    </div>
+
+                    <h6 class="text-3"><u><i>Our Happy Moments</i></u></h6>
+
+                    <div class="container-5">
+
+                        <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\happy moment 1.jpg" class="moments">
+                        <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\happy moments 2.webp" class="moments">
+                        <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\happy moments 3.jpg" class="moments">
+                    </div>
+                <div class="client">
+                    <p><h2><i>By Seeing Our Clients Happy We Are Also Happy </i></h2></p></div><br/>
+
+                  <div class="theme-main">
+                    <h><u><i><b>Our Themes</b></i></u></h></div><br/>
+                     <div class="feature-main">
+                    <div class="feature-card">
+
+                    <h3 class="theme-name">Boy Birthday Theme</h3>
+
+
+                    <div class="boy-theme1">
+                        <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\boy theme1.jpg">
+                    </div>
+                    </div>
+                    <div class="feature-card">
+
+                        <h3 class="theme-name">Girl Birthday Theme</h3>
+    
+                        <div class="boy-theme1">
+                            <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\girl theme1.jpg" class="girltheme">
+                        </div>
+                        </div>
+                        <div class="feature-card">
+
+                            <h3 class="theme-name">Elders Birthday Theme</h3>
+        
+                            <div class="boy-theme1">
+                                <img src="C:\Users\Aditi\Desktop\ipc-6-group-2-html-css-project-1\images\big person.jpg" class="eldertheme">
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="footer">
+
+
+
+                            <div class="footer-box">
+                
+                                <div class="footer1">
+                                    <img class="f-logo">
+                                    <h1>Party Planners</h1>
+                                    <a class="fb" href="#">
+                                        <img src="./images/home/icons/meta.png" height="35px">
+                                    </a>
+                                    <a class="twitter" href="#">
+                                        <img src="./images/home/icons/linkedin.png" height="35px">
+                                    </a>
+                                    <a class="insta" href="#">
+                                        <img src="./images/home/icons/instagram.png" height="35px">
+                                    </a>
+                                    <a class="yt" href="#">
+                                        <img src="./images/home/icons/youtube.png" height="35px">
+                                    </a>
+                    
+                                </div>
+                                <div class="footer2">
+                    
+                                    <h2>Quick Links</h2>
+                                    <p>About Us</p>
+                                    <p>Services</p>
+                                    <p>Our Team</p>
+                                    <p>Pricing</p>
+                                    <p>Contact</p>
+                    
+                                </div>
+                                
+                                <div class="footer3">
+                    
+                                    <h2>Useful Links</h2>
+                                    <p>Privacy Policy</p>
+                                    <p>Terms And Conditions</p>
+                                    <p>Disclimer</p>
+                                    <p>Support</p>
+                                    <p>FAQ</p>
+                                </div>
+                                <div class="footer4">
+                    
+                                    <h1 class="tag">Call Now For Services</h1>
+                                    <p>9999-777-444</p>
+                                    
+                                    <h2>Email Us</h2>
+                    
+                                    <h1>partyplanners@gmail.com</h1>
+                                </div>
+                                
+                            </div>
+                
+                            
+                            
+                        </div>
+                        
+                
+                
+                
+                    </div>
+                
+                    
+        </body>

@@ -1549,12 +1549,21 @@ p{
     
     }
 
-
-    
     .navbar-1{
     
         font-size: 13px;
     }
+
+    .navbar-2 .n2{
+        margin-top: 5px;
+         font-size: 14px;
+         margin-right: 35px;
+    }
+
+    .login{
+        padding: 10px 15px;
+    }
+
 
     .display-logo h1{
         font-size: 50px;
@@ -1590,11 +1599,11 @@ p{
     }
     
     .upcomming-box{
-        width: 400px;
+        width: 420px;
     }
     
     .upcomming-card{
-        width: 350px;
+        width: 390px;
         padding: 10px 20px ;
         /* display: flex;
         flex-direction: column; */
@@ -1605,9 +1614,11 @@ p{
         /* display: flex;
         flex-direction: column-reverse; */
         padding: 6px 25px ;
-        width: 350px;
+        width: 390px;
         margin: 1px -10px;
     }
+
+    
 
     .upcomming-card .date{
         display: none;
@@ -1680,7 +1691,8 @@ p{
     }
 
     .review-box2{
-        width: 100px;
+        width: 150px;
+        margin-left: -29px;
     }
 
     .review-section-btn{
@@ -1715,18 +1727,31 @@ p{
     }
 
     .footer h1{
-        font-size: 7px;
+        font-size: 13px;
     }
     .footer h2{
-        font-size: 7px;
+        font-size: 10px;
     }
     
     .footer p{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .spc2{
         margin-top: 0px;
+    }
+
+    .footer{
+        background-size: cover;
+        width: 660px;
+    }
+
+    .footer4{
+        display: contents;
+    }
+
+    .footer-box{
+        margin-left: 200px;
     }
 
     body{

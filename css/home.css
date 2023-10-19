@@ -15,6 +15,7 @@
 body{
     border: 0px;
     padding: 0%;
+    margin:0 ;
 }
 
 a{
@@ -67,9 +68,9 @@ p{
 }
 .logoo{
     font-family: 'Pacifico', cursive;
-    margin-left: -70px;
+    margin-left: -30px;
     /* margin-top: 40px; */
-    margin-bottom: -25px;
+    margin-bottom: -15px;
     font-size: 40px;
 }
 
@@ -111,7 +112,7 @@ p{
 .navbar-2{
     background-color:#a82ef2;
     background-image: url(../images/home/home-navbar.jpg);
-    background-size: cover;
+    background-size:cover;
     height: 80px;
     color: white;
     display: flex;
@@ -186,6 +187,7 @@ p{
     display: flex;
     justify-content: center;
     background-image: url(../images/home/home-party.jpg);
+    background-size: cover;
     color: aliceblue;
     margin: 0px 0px 20px 0px;
 }
@@ -760,7 +762,9 @@ p{
     font-size: 40px;
    
 }
-
+.footer{
+    width: 100vw;
+}
 .footer-text{
     margin-left: 300px;
 }
@@ -836,3 +840,688 @@ p{
     color: #a82ef2;
 }
 
+
+
+/* ++++++++++++++++++++++++ MEDIA QUERY +++++++++++++++++++++++ */
+
+/* @media screen and (max-width: 1515px){
+    .footer{
+        
+    }
+} */
+@media screen and (max-width: 1500px){
+    .cards-box{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1290px){
+        
+
+.logoo {
+    margin-bottom: -9px;
+    font-size: 30px;
+    padding-left: 70px;
+    margin-left: -70px;
+
+}
+
+.n-support{
+    padding-left: 50px;
+
+}
+
+.navbar-1{
+
+    font-size: 13px;
+}
+
+.card{
+    /* height: 150px; */
+    width: 230px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-icon-title{
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    height: 40px;
+}
+.card p{
+    display: none;
+}
+
+
+.upcomming-card .date{
+    font-size: 15px;
+}
+
+.location h1{
+    font-size: 25px;
+}
+
+.location p{
+    font-size: 13px;
+}
+
+.upcomming-box img{
+    height: 140px;
+}
+
+.upcomming-box{
+    width: 900px;
+}
+
+.upcomming-card{
+    width: 800px;
+}
+.upcomming-card2{
+    width: 800px;
+}
+
+
+
+.service-price-card{
+
+    width: 200px;
+}
+
+.service-price h1{
+    font-size: 20px;
+}
+
+.service-price p{
+    font-size: 15px;
+}
+
+.service-price-btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+
+.review-box{
+    width: 700px;
+}
+
+.review-box h1{
+    font-size: 29px;
+}
+
+.review-box h2{
+    font-size: 20px;
+}
+
+.review-box p{
+    font-size: 13px;
+}
+
+.reviewer-photo{
+    margin-left: 00px;
+}
+
+.reviewer-photo img{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1170px){
+    .navbar-1{
+        
+    }
+
+    .cards-box{
+        justify-content: space-around;
+    }
+
+    .card{
+        
+        margin-left: 50px;
+        width: 180px;
+    }
+
+    
+    .card p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .navbar-1 p4{
+        display: none;
+    }
+
+    .n-logo{
+        width: 400px;
+        margin-left: -400px;
+    } 
+
+    .logoo{
+        width: 200px;
+       
+
+        
+    }
+
+    .n-book-meeting{
+        font-size: 10px;
+        /* margin: 10px; */
+        padding: 10px 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        
+    }
+
+    
+
+
+    .navbar-2 {
+        background-size: auto;
+        margin-top: 10PX;
+    }
+
+    
+
+.offering-box{
+    width: 700px;
+}
+
+
+
+
+
+.display-logo{
+    font-size: 45px;
+}
+
+.display-1{
+    font-size: 29px;
+}
+
+.display-2 p{
+    font-size: 12px;
+}
+
+.display-cards{
+    margin-top: -300px;
+}
+
+.card{
+    width: 120px;
+}
+
+.cards-box{
+    margin-top: 59px;
+}
+
+.card img{
+    margin-right: 0px;
+}
+.card h2{
+    font-size: 20px;
+    margin-left: 0px;
+}
+.card p{
+    font-size: 10px;
+    /* display: none; */
+}
+
+.offering2 p
+{
+    display: none;
+}
+
+.upcomming-title h1{
+    font-size: 30px;
+}
+
+.upcomming-title p{
+    font-size: 14px;
+}
+
+
+.upcomming-card .date{
+    font-size: 15px;
+}
+
+.location h1{
+    font-size: 25px;
+}
+
+.location p{
+    font-size: 13px;
+}
+
+.upcomming-box img{
+    height: 140px;
+}
+
+.upper-footer-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper-footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    /* margin-right: 60px;
+    margin-left: 70px; */
+    margin: auto;
+}
+
+.footer-mail{
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 900px){
+   .n2{
+    font-size: 14px;
+   }
+
+   .n-logo{
+    
+    margin-left: -300px;
+} 
+
+   
+   
+   .navbar-2 {
+    background-size: auto;
+}
+   
+    .service-price-card{
+    
+        width: 150px;
+    } 
+
+    .service-price h1{
+        font-size: 15px;
+    }
+
+    .service-price h2{
+        font-size: 25px;
+    }
+    
+    .service-price p{
+        font-size: 10px;
+    }
+    
+    .service-price-btn{
+        padding: 7px 10px;
+        border-radius: 30px;
+        font-size: 10px;
+    }
+    
+
+    .offering{
+        
+    }
+
+    .offering-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .offering2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -70px;
+    }
+
+    .offering2 h1{
+        font-size: 40px;
+        margin-top: 40px;
+        /* margin-right: 30px; */
+    }
+
+    .offering-btn{
+        margin-top: 60px;
+    } 
+    .offering-card img{
+        height: 50px;
+    }
+
+    .offering1-box-1{
+
+    }
+
+    .upper-footer-box{
+    width: 400px;
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .card{
+        width: 100px;
+    }
+
+    .upcomming-box{
+        width: 500px;
+    }
+    
+    .upcomming-card{
+        width: 570px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 570px;
+        margin: 1px -10px;
+    }
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        padding: 13px 15px;
+        font-size: 10px;
+        border-radius: 30px;
+    }
+    
+
+}
+
+@media screen and (max-width: 701px){
+     .C3{
+        margin-left: -10px;
+     }
+
+     .C2{
+        margin-left: -10px;
+     }
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .navbar-2 {
+        background-size: auto;
+    }
+    
+
+    .n2{
+        font-size: 12px;
+       }
+
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+
+
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+
+    .display-logo h1{
+        font-size: 80px;
+    }
+
+    .display-1{
+        margin-top: 30px;
+    }
+    .display-1 h2{
+       
+            font-size: 40px;
+        }
+    
+    
+    .card{
+        height: 80px;
+        width: 80px;
+    }
+
+    .card h2{
+        font-size: 13px;
+    }
+
+    .card p{
+        
+        display: none;
+    }
+    
+    .upcomming-box{
+        width: 400px;
+    }
+    
+    .upcomming-card{
+        width: 570px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 570px;
+        margin: 1px -10px;
+    }
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        display: none;
+    
+    }
+    
+    .location h1{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .location p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    
+    .upcomming-box img{
+        height: 140px;
+        margin: 10px;
+    }
+    
+    
+    .service-price-card{
+    
+        width: 130px;
+    }
+
+    .service-price h1{
+        font-size: 10px;
+    }
+
+    .service-price h2{
+        font: 16px;
+    }
+    
+    .service-price p{
+        font-size:7px;
+    }
+    
+    .service-price-btn{
+        padding: 5px 10px;
+        border-radius: 30px;
+        font-size: 7px;
+    }
+    
+    
+    
+    .review-box{
+    
+        width: 400px;
+    }
+
+    .review-section-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .offering1-box-1 p{
+        margin-right: 28px;
+    }
+
+    .upper-footer-box{
+    
+    }
+    
+    .upper-footer-box{
+   
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .footer h1{
+        font-size: 7px;
+    }
+    .footer h2{
+        font-size: 7px;
+    }
+    
+    .footer p{
+        font-size: 5px;
+    }
+}
+    
+
+@media screen and (max-width: 600px){
+        
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+    
+    .card{
+        height: 50px;
+        width: 90px;
+    }
+    
+    .upcomming-box{
+        width: 400px;
+    }
+    
+    .upcomming-card{
+        width: 200px;
+    }
+    .upcomming-card2{
+        width: 200px;
+    }
+    
+    .service-price-card{
+    
+        width: 100px;
+    }
+    
+    
+    .review-box{
+    
+        width: 400px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+    
+    .footer-text{
+        margin: 20px;
+    }
+
+    .footer4{
+        width: 100px;
+    }
+
+    .footer4 h1{
+        font-size: 5px;
+    }
+
+    .footer h2{
+        font-size: 5px;
+    }
+    
+    .footer4{
+        display: none;
+    }
+    
+}
+    
+    

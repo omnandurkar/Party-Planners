@@ -748,7 +748,7 @@ p{
 }
 
 .upper-footer-box{
-    width: 1300px;
+    width: 12   00px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -1527,7 +1527,7 @@ p{
 
 
 
-    @media screen and (max-width: 405px) {
+    @media screen and (max-width: 470px) {
 
      
 
@@ -1536,7 +1536,7 @@ p{
        }
 
 
-    .logoo {
+    .logoo {    
         margin-bottom: -9px;
         font-size: 19px;
         /* padding-left: 70px; */

@@ -1521,7 +1521,224 @@ p{
     .footer4{
         display: none;
     }
-    
+
 }
+    /* +++++++++ FOR PHONE ++++++++++ */
+
+
+
+    @media screen and (max-width: 405px) {
+
+     
+
+    .n2{
+        font-size: 7px;
+       }
+
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 19px;
+        /* padding-left: 70px; */
+        /* margin-left: 99px; */
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+
+
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+
+    .display-logo h1{
+        font-size: 50px;
+    }
+
+    .display-1{
+        margin-top: 30px;
+    }
+    .display-1 h2{
+       
+            font-size: 40px;
+        }
+    .display-2{
+        margin-top: 50px;
+    }
+
+    .display-3{
+        margin-top: 40px;
+    }
+    
+    .card{
+        height: 100px;
+        width: 40px;
+    }
+
+    .card h2{
+        /* display: none; */
+    }
+
+    .card p{
+        
+        display: none;
+    }
+    
+    .upcomming-box{
+        width: 400px;
+    }
+    
+    .upcomming-card{
+        width: 350px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 350px;
+        margin: 1px -10px;
+    }
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        display: none;
+    
+    }
+    
+    .location h1{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .location p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    
+    .upcomming-box img{
+        height: 140px;
+        margin: 10px;
+    }
+    
+
+    
+.service-price-card{
+
+    width: 200px;
+}
+
+.service-price h1{
+    font-size: 20px;
+}
+
+.service-price p{
+    font-size: 15px;
+}
+
+.service-price-btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+    
+.service-price-title h1{
+    font-size: 40px;
+
+}
+.service-price-title p{
+    font-size: 10px;
+
+}
+
+    .service-price-card-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .review-box{
+    
+        width: 200px;
+    }
+
+    .review-box2{
+        width: 100px;
+    }
+
+    .review-section-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .offering1-box-1 p{
+        margin-right: 28px;
+    }
+
+    .upper-footer-box{
+    
+    }
+    
+    .upper-footer-box{
+   
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .footer h1{
+        font-size: 7px;
+    }
+    .footer h2{
+        font-size: 7px;
+    }
+    
+    .footer p{
+        font-size: 5px;
+    }
+
+    .spc2{
+        margin-top: 0px;
+    }
+
+    body{
+        margin-left: 0px;
+        margin-right: -250px;
+    }
+}
+
+
+
+
+
+
     
     

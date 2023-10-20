@@ -12,7 +12,14 @@ body{
     margin:0;
     background-color:antiquewhite;
 }
+.navbar-1 p4{
+    color:black;
 
+}
+.n-logo h1{
+    color:black;
+
+}
 .container {color: white;}
 .photo{
  height: 500px;

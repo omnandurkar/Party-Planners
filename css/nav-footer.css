@@ -33,6 +33,9 @@ p{
     justify-content: space-around;
     padding: 10px 10vw 6px 10vw;
     margin-top: -25px;
+    color:white;
+   
+
 
     font-family: 'PT Serif', serif;
 }
@@ -94,13 +97,14 @@ p{
     color: #fff;
     text-decoration: none;
 }
-/* ++++++++++++++++++++++++  Navbar  ++++++++++++++++++++++++++ */
+
 
 
 
 .navbar-2{
     background-color:#a82ef2;
     background-image: url(../images/home/home-navbar.jpg);
+
     background-size: cover;
     height: 80px;
     color: white;

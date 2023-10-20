@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-
+body{
+    margin: 0;
+}
 
 a{
     text-decoration: none;
@@ -210,3 +212,280 @@ p{
     font-family: 'Pacifico', cursive;
     color: #a82ef2;
 }
+
+
+@media screen and (max-width: 1500px){
+
+}
+
+@media screen and (max-width: 1290px){
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 1170px){
+    .navbar-1{
+        
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .navbar-1 p4{
+        display: none;
+    }
+
+    .n-logo{
+        width: 400px;
+        margin-left: -400px;
+    } 
+
+    .logoo{
+        width: 200px;
+       
+
+        
+    }
+
+    .n-book-meeting{
+        font-size: 10px;
+        /* margin: 10px; */
+        padding: 10px 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        
+    }
+
+    
+
+
+    .navbar-2 {
+        background-size: auto;
+        margin-top: 10PX;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .n2{
+     font-size: 14px;
+    }
+ 
+    .n-logo{
+     
+     margin-left: -300px;
+ } 
+ 
+    
+    
+    .navbar-2 {
+     background-size: auto;
+ }
+} 
+
+@media screen and (max-width: 701px){
+    .C3{
+       margin-left: -10px;
+    }
+
+    .C2{
+       margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .navbar-2 {
+        background-size: auto;
+    }
+    
+
+    .n2{
+        font-size: 12px;
+       }
+
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+
+
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+
+    .display-logo h1{
+        font-size: 80px;
+    }
+
+    .display-1{
+        margin-top: 30px;
+    }
+    .display-1 h2{
+       
+            font-size: 40px;
+        }
+
+
+        .footer-text{
+            margin: auto;
+        }
+    
+        .footer h1{
+            font-size: 7px;
+        }
+        .footer h2{
+            font-size: 7px;
+        }
+        
+        .footer p{
+            font-size: 5px;
+        }
+    
+    }
+
+    @media screen and (max-width: 600px){
+        
+
+        .logoo {
+            margin-bottom: -9px;
+            font-size: 30px;
+            padding-left: 70px;
+            margin-left: -70px;
+        
+        }
+        
+        .n-support{
+            padding-left: 50px;
+        
+        }
+        
+        .navbar-1{
+        
+            font-size: 13px;
+        }
+
+        .footer-text{
+            margin: 20px;
+        }
+    
+        .footer4{
+            width: 100px;
+        }
+    
+        .footer4 h1{
+            font-size: 5px;
+        }
+    
+        .footer h2{
+            font-size: 5px;
+        }
+        
+        .footer4{
+            display: none;
+        }
+    }    
+
+
+    @media screen and (max-width: 470px) {
+
+     
+
+        .n2{
+            font-size: 7px;
+           }
+    
+    
+        .logoo {    
+            margin-bottom: -9px;
+            font-size: 19px;
+            /* padding-left: 70px; */
+            /* margin-left: 99px; */
+        
+        }
+        
+        .n-support{
+            padding-left: 50px;
+        
+        }
+    
+        .navbar-1{
+        
+            font-size: 13px;
+        }
+    
+        .navbar-2 .n2{
+            margin-top: 5px;
+             font-size: 14px;
+             margin-right: 35px;
+        }
+    
+        .login{
+            padding: 10px 15px;
+        }
+    
+    
+        .display-logo h1{
+            font-size: 50px;
+        }
+
+        .footer-text{
+            margin: auto;
+        }
+    
+        .footer h1{
+            font-size: 13px;
+        }
+        .footer h2{
+            font-size: 10px;
+        }
+        
+        .footer p{
+            font-size: 10px;
+        }
+    
+        .spc2{
+            margin-top: 0px;
+        }
+    
+        .footer{
+            background-size: cover;
+            width: 660px;
+        }
+    
+        .footer4{
+            display: contents;
+        }
+    
+        .footer-box{
+            margin-left: 200px;
+        }
+    
+    }    

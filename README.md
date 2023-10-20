@@ -1,1 +1,1 @@
-# ipc-6-group-2-html-css-project-1
+# icp-6-group-2-html-css-project-1

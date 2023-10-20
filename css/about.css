@@ -10,8 +10,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'PT Serif', serif;
 */
         .navbar{
-            background-color: aqua;
-            height: 40px;
+            
+            
         }
        
            
@@ -48,7 +48,7 @@ font-family: 'PT Serif', serif;
         }
 
         .event1-img{
-            background-image:url(./img/party-img.webp);
+            background-image:url(../images/about-img/party-img.webp);
             background-size: cover;
             height: 400px;
             width: 300px;
@@ -58,7 +58,7 @@ font-family: 'PT Serif', serif;
         }
 
         .event2-img{
-            background-image:url(./img/beautiful-event-at-night.jpg);
+            background-image:url(../images/about-img/beautiful-event-at-night.jpg);
             background-size: cover;
             height: 300px;
             width: 200px;

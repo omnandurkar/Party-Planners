@@ -1,6 +1,7 @@
 #Party Planners
 
- icp-6-group-2-html-css-project-1
+A wholesome website for Your all Events
+
 
  SOME SNAPSHORTS ARE GIVEN BELOW
 ![image](https://github.com/omnandurkar/icp-6-group-2-html-css-project-1/assets/125724085/82b8d001-8158-47d2-9ead-19918f6fb2bc)
